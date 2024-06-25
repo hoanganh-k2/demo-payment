@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Payment</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./payment.css" />
+    </head>
+
+    <body>
+        <div class="content">
+            <form action="" id="checkoutForm">
+                <div class="wrap">
+                    <main class="main">
+                        <header class="main-header">
+                            <h1 class="shop-name">
+                                <a href="#"> Template Alena </a>
+                            </h1>
+                        </header>
+                        <div class="main-content">
+                            <article class="row">
+                                <div class="col">
+                                    <section class="section">
+                                        <div class="section-header">
+                                            <div class="layout-flex">
+                                                <h2>
+                                                    <i
+                                                        class="fa-solid fa-address-card"
+                                                    ></i>
+                                                    Thông tin nhận hàng
+                                                </h2>
+                                                <a href="#">
+                                                    <i
+                                                        class="fa-solid fa-user"
+                                                    ></i>
+                                                    <span>Đăng nhập</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="section-content">
+                                            <div class="fieldset">
+                                                <div class="filed">
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            class="field-input"
+                                                            id="email"
+                                                            type="email"
+                                                            name="email"
+                                                            placeholder="Email"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="filed">
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            class="field-input"
+                                                            id="billingName"
+                                                            type="text"
+                                                            placeholder="Họ và tên"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="filed">
+                                                    <input
+                                                        class="field-input"
+                                                        id="billingPhone"
+                                                        type="tel"
+                                                        placeholder="Số điện thoại (tùy chọn)"
+                                                    />
+                                                    <div
+                                                        class="field-input-phone"
+                                                    >
+                                                        <span
+                                                            class="select-container"
+                                                            style="width: 56px"
+                                                        >
+                                                            <span
+                                                                class="selection"
+                                                            >
+                                                                <span
+                                                                    class="selection-content"
+                                                                >
+                                                                    <img
+                                                                        src="https://tienichhay.net/uploads/flags/flat/64x64/vn.png"
+                                                                        style="
+                                                                            width: 17px;
+                                                                            height: 16px;
+                                                                        "
+                                                                    />
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="filed">
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            class="field-input"
+                                                            id="billingAddress"
+                                                            type="text"
+                                                            placeholder="Địa chỉ (tùy chọn)"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="filed">
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            class="field-input"
+                                                            id="billingAddress"
+                                                            type="text"
+                                                            placeholder="Tỉnh thành"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="filed">
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            class="field-input"
+                                                            id="billingAddress"
+                                                            type="text"
+                                                            placeholder="Quận huyện (tùy chọn)"
+                                                        />
+                                                    </div>
+                                                </div>
+                                                <div class="filed">
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            class="field-input"
+                                                            id="billingAddress"
+                                                            type="text"
+                                                            placeholder="Phường xã (tùy chọn)"
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <div class="fielset">
+                                        <div class="field-input-wrapper">
+                                            <input
+                                                class="field-input"
+                                                id="billingAddress"
+                                                type="text"
+                                                placeholder="Ghi chú (tùy chọn)"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <section class="section">
+                                        <div class="section-header">
+                                            <div class="layout-flex">
+                                                <h2 class="section-title">
+                                                    <i
+                                                        class="fa-solid fa-truck-fast"
+                                                    ></i>
+                                                    Vận chuyển
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="section-content">
+                                            <div class="alert alert-infor">
+                                                Vui lòng nhập thông tin giao
+                                                hàng
+                                            </div>
+                                        </div>
+                                    </section>
+                                    <section class="section">
+                                        <div class="section-header">
+                                            <div class="layout-flex">
+                                                <h2 class="section-title">
+                                                    <i
+                                                        class="fa-sharp fa-regular fa-credit-card"
+                                                    ></i>
+                                                    Thanh toán
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <div class="section-content">
+                                            <div class="content-box">
+                                                <div class="content-box-row">
+                                                    <div class="radio-wrapper">
+                                                        <div
+                                                            class="radio-input"
+                                                        >
+                                                            <input
+                                                                class="input-radio"
+                                                                type="radio"
+                                                            />
+                                                        </div>
+                                                        <label
+                                                            class="radio-label"
+                                                            for=""
+                                                        >
+                                                            <span
+                                                                class="radio-label-primary"
+                                                                >Thanh toán khi
+                                                                giao hàng</span
+                                                            >
+                                                            <span
+                                                                class="radio-label-accessory"
+                                                            >
+                                                                <i
+                                                                    class="fa-regular fa-money-bill"
+                                                                ></i>
+                                                            </span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </article>
+                            <div class="input-btn"></div>
+                        </div>
+                    </main>
+                    <aside class="sidebar">
+                        <div class="sidebar-header">
+                            <h2 class="sidebar-title">Đơn hàng</h2>
+                        </div>
+                        <div class="sidebar-content">
+                            <div class="order-summary">
+                                <div class="order-summary-sections">
+                                    <div class="order-summary-section">
+                                        <table class="product-table">
+                                            <tbody>
+                                                <tr class="product">
+                                                    <td>
+                                                        <div
+                                                            class="product-thumbnail"
+                                                        >
+                                                            <img
+                                                                src="./assets/img/clothes/tab1/cloth1.webp"
+                                                                alt=""
+                                                                style="
+                                                                    width: 50px;
+                                                                    height: 50px;
+                                                                "
+                                                            />
+                                                        </div>
+                                                    </td>
+                                                    <th>
+                                                        <span
+                                                            class="product-description"
+                                                            >Áo len nữ</span
+                                                        >
+                                                    </th>
+                                                    <td>110.000đ</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="order-summary-section">
+                                        <div class="fieldset">
+                                            <div class="field">
+                                                <div
+                                                    class="field-input-btn-wrapper"
+                                                >
+                                                    <div
+                                                        class="field-input-wrapper"
+                                                    >
+                                                        <input
+                                                            type="text"
+                                                            placeholder="Nhập mã giảm giá"
+                                                        />
+                                                    </div>
+                                                    <button>
+                                                        <span>Áp dụng</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-summary-section">
+                                        <table>
+                                            <tbody>
+                                                <tr class="total-line">
+                                                    <th>Tạm tính</th>
+                                                    <td>110.000đ</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Phí vận chuyển</th>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <th class="total-line-name">
+                                                        <span
+                                                            class="payment-total"
+                                                            >Tổng cộng</span
+                                                        >
+                                                    </th>
+                                                    <td
+                                                        class="total-line-price"
+                                                    >
+                                                        <span
+                                                            class="payment-price"
+                                                            >110.000đ</span
+                                                        >
+                                                    </td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                    <div class="order-summary-nav">
+                                        <button class="spiner" type="submit">
+                                            <span>Đặt hàng</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
